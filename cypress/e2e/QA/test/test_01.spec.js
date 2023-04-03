@@ -1,7 +1,7 @@
 /// <reference types= "cypress" />
 import { Given, Then, } from "@badeball/cypress-cucumber-preprocessor";
 
-Given("I am on the web page", function () {
+Given(" I am on the web page", function () {
     cy.visit('https://www.gov.uk/calculate-your-holiday-entitlement')
     //allow coookies
     cy.get('[data-accept-cookies="true"]').click();
@@ -11,11 +11,11 @@ Given("I am on the web page", function () {
 });
 
 
-Then("I navigate to calculate holiday entitlement", function () {
+Then("I navigate calculate entitlements", function () {
     cy.contains('Start now').click();
 });
 
-Then("I select required options", function () {
+Then("I select radio buttons", function () {
     cy.get('#response-0').check();
     //Click on continue button
     cy.contains('Continue').click();
@@ -26,7 +26,7 @@ Then("I select required options", function () {
 
 });
 
-Then("I should see no entitlement", function () {
+Then("I should see an error message", function () {
  cy.contains('There is problem').should('be.visible');
 
 });

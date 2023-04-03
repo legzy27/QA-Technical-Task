@@ -14,7 +14,7 @@ Then("I navigate to calculate holiday entitlement", function () {
     cy.contains('Start now').click();
 });
 
-Then("I select required options", function () {
+Then("I will pick required selection", function () {
     cy.get('#response-0').check();
     //Click on continue button
     cy.contains('Continue').click();
