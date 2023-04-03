@@ -6,5 +6,5 @@
 * npm install -D @bahmutov/cypress-esbuild-preprocessor.
 
 
-* Run test
+# Run test
 * npx cypress open
