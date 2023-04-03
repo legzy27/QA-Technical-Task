@@ -1,0 +1,24 @@
+{
+  "name": "qa-technical-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legzy27/QA-Technical-Task.git"
+  },
+  "author": "alexo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legzy27/QA-Technical-Task/issues"
+  },
+  "homepage": "https://github.com/legzy27/QA-Technical-Task#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.9.0"
+  }
+}
