@@ -27,6 +27,6 @@ Then("I select radio buttons", function () {
 });
 
 Then("I should see an error message", function () {
- cy.contains('There is a problem').should('be.visible');
+    cy.contains('There is a problem').should('be.visible');
 
 });
